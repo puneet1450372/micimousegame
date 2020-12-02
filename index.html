@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title></title>
+	<style type="text/css">
+		.dv{
+			border: 2px solid #591cb5;
+			width: 101px;
+			height: 120px;
+			float:right;
+			background-color: #c0d1ce;
+			
+		}
+	button{
+		margin-top: 2%;
+		height: 50px;
+		width: 13%;
+		border-radius: 20px;
+		color:black;
+		background-color: white;
+		outline: none;
+		margin-left: 0;
+		font-size:2vw;
+		font-style: italic;
+		font-family: Arial, Helvetica, sans-serif;
+		color: rgb(85, 27, 71);
+		font-family: 700;
+		border: 3px solid gray;
+		}
+		.btn{
+			margin-left: 40%; margin-top: 15%;
+		}
+		#main{
+			margin-top: 2%;
+			position: relative;
+			margin-right:20px;
+			padding-left:0;
+		}
+		#back{
+			
+		height: 50px;
+		width: 20%;
+		border-radius: 20px;
+		color:black;
+		background-color: white;
+		outline: none;
+		margin-top: -20%;
+		color: rgb(85, 27, 71);
+		font-size: 15px auto;
+		margin-left: 4%;
+		
+		}
+		p{
+			font-size: 30px;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			color: darkturquoise;
+			font-style: italic;
+			text-align: center;
+		}
+		h4{
+			font-size: 40px;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			color:maroon;
+			font-style: italic;
+			font-weight: 200;
+			margin-right: 20px;;
+		}
+		#title {
+  width: 100%;
+  height: 25px;
+  /* background-color: red; */
+  animation-name: exam;
+  animation-duration: 30s;
+  animation-delay:0.5sec;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+@keyframes exam {
+  0%   {color: rgb(185, 73, 20);}
+  25%  {color: rgb(223, 90, 130);}
+  50%  {color: rgb(97, 0, 94);}
+  100% {color: rgb(197, 67, 193);}
+}
+#ans{
+	font-size:40px;
+	font-style:italic;
+	font-weight: 500;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color:cornflowerblue;
+	
+}
+#demo{
+	float:left; 
+	font-size: 30px;
+	 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+	  color: rgb(85, 27, 71);
+	   margin-left: 3%;
+}
+#highest{
+	display:block;
+	float:right;
+	font-size: 30px;
+	 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	  color: rgb(85, 27, 71);
+	  margin-right: 6%;
+
+}
+
+	</style>
+
+</head>
+<body style="background-image: url('bc.jpeg'); background-repeat: no-repeat; background-size:cover; height: 400px;" >
+	
+	
+	<section style="height: 50px;">
+		<p id="title" style="color: rgb(243, 235, 235);">Welcome to this fantastic Mici Mouse game</p>
+		<p id="timerr"style="color: darkred;">
+			game end in <span id="time">0:30</span>sec
+		</p>
+	</section>
+	<section style="height: 80px; border-bottom:2px; width: 100% auto; "  >
+	<h2 id="demo">Your score is: 0</h2>
+	<h2 id="highest" > highest score:<span id="high" ></span></h2>
+	<div>
+		<p style="text-align: center; ">
+			<button type="button" onclick="start()" id="start">start game</button>
+			<button type="button" onclick="over()" id="over">Game over</button>
+		</p>
+	</div>
+	
+	</section>
+	<section>
+	<div style=" width:90%; height: 300px ;" id="main">
+		<div id="one" class="dv  " ></div>
+		<div id="one1"  class="dv "  ></div>
+		<div id="one2"  class="dv "  ></div>
+		<div id="one3"  class="dv"  ></div>
+		<div id="one4"  class="dv" ></div>
+		<div id="one5"  class="dv "  ></div>
+		<div id="one6"  class="dv "  ></div>
+		<div id="one7"  class="dv" ></div>
+		<div id="one8"  class="dv " ></div>
+		<div id="one9"  class="dv "></div>
+		<div id="one10"  class="dv "  ></div>
+		<div id="one11"  class="dv " ></div>
+		<div id="one12"  class="dv "  ></div>
+		<div id="one13"  class="dv "  ></div>
+		<div id="one14"  class="dv "  ></div>
+		<div id="one15"  class="dv "  ></div>
+		<div id="one16"  class="dv"  ></div>
+		<div id="one17"  class="dv"  ></div>
+		<div id="one16"  class="dv"  ></div>
+		<div id="one17"  class="dv"  ></div>
+		<div id="one16"  class="dv"  ></div>
+		<div id="one17"  class="dv"  ></div>
+		<div id="one16"  class="dv"  ></div>
+		<div id="one17"  class="dv"  ></div>
+		<div id="one16"  class="dv"  ></div>
+		<div id="one17"  class="dv"  ></div>
+		<div id="one16"  class="dv"  ></div>
+		<div id="one17"  class="dv"  ></div> 
+		 <div id="one16"  class="dv"  ></div>
+		<div id="one17"  class="dv"  ></div>
+		<div id="one16"  class="dv"  ></div>
+		<div id="one17"  class="dv"  ></div>
+		<div id="one16"  class="dv"  ></div>
+		
+</div>
+
+<div id="result1" style="margin-left:-3%; margin-top: 0%; display:none;">
+	<p id="ans">Game Over</p>
+	<p id="ans">Your Score is:<span id="result"></span></p>
+</div>
+</section>
+
+
+<div class="btn">
+	
+	<button type="button" onclick="back()" id="back" style="display: none;" >back</button>
+</div>
+
+
+</body>
+<script type="text/javascript" src="game.js"></script>
+	
+</html>
