@@ -100,7 +100,7 @@ if(count>highscore){
 // }
 }	
 function back(){
-window.location.href="random.html";
+window.location.href="index.html";
 }
 function startTimer(duration, display) {
 var timer = duration, minutes, seconds;
