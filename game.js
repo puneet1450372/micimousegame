@@ -37,7 +37,7 @@ function show(){
 
 function start(){
 
-setInterval(show,1300);
+setInterval(show,800);
 xyz();
 setTimeout(over,32000);
 }
